@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Artikel</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Tambahkan ikon sosial media -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        .social-icons {
+            list-style: none;
+            padding: 0;
+        }
+        .social-icons li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        /* CSS untuk memposisikan judul artikel dan ikon-ikon di tengah */
+        .title-container {
+            text-align: center;
+            margin-bottom: 20px; /* Jarak bawah untuk ikon-ikon */
+        }
+    /* CSS untuk latar belakang */
+    body {
+        position: relative;
+    }
+    body::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url('th (11).jpeg'); 
+        background-size: cover;
+        filter: blur(0px); /* Efek blur dengan radius 0px */
+        z-index: -1; /* Agar latar belakang berada di belakang konten */
+    }
+ 
+    /* CSS untuk jarak antara navbar dengan konten artikel */
+    .title-container {
+        margin-top: 50px; /* Menambahkan margin atas 50px pada .title-container */
+    }
+    /* CSS untuk mengatur ukuran gambar pada konten artikel */
+    .article-image {
+            width: 70%; /* Mengatur lebar gambar agar 100% dari lebar parent (container) */
+            height: auto; /* Mengatur tinggi gambar agar proporsional dengan lebar yang ditetapkan */
+        }
+        .article-images {
+            width: 50%; /* Mengatur lebar gambar agar 100% dari lebar parent (container) */
+            height: auto; /* Mengatur tinggi gambar agar proporsional dengan lebar yang ditetapkan */
+        }
+     /* CSS untuk mengubah font dan warna font pada judul artikel */
+     .title-container h1 {
+    font-family: 'Arial', sans-serif; /* Font Arial atau font sans-serif lainnya */
+    background: linear-gradient(to right, #e70e77, #ec8a52); 
+    -webkit-background-clip: text; /* Mengatur area teks sebagai mask untuk latar belakang gradasi (Safari) */
+    background-clip: text; /* Mengatur area teks sebagai mask untuk latar belakang gradasi (Chrome, Firefox, Edge) */
+    -webkit-text-fill-color: transparent; /* Menjadikan warna teks menjadi transparan */
+    color: transparent; /* Menjadikan teks menjadi transparan untuk browser yang tidak mendukung background-clip */
+}
+    /* CSS untuk mengubah font dan warna font pada judul artikel */
+    .title-container h2 {
+    font-family: 'Montserrat', sans-serif; /* Font Arial atau font sans-serif lainnya */
+    background: linear-gradient(to right, #5979e4, #3dad84); 
+    -webkit-background-clip: text; /* Mengatur area teks sebagai mask untuk latar belakang gradasi (Safari) */
+    background-clip: text; /* Mengatur area teks sebagai mask untuk latar belakang gradasi (Chrome, Firefox, Edge) */
+    -webkit-text-fill-color: transparent; /* Menjadikan warna teks menjadi transparan */
+    color: transparent; /* Menjadikan teks menjadi transparan untuk browser yang tidak mendukung background-clip */
+}
+.p-4.bg-white h2 {
+    border-bottom: 3px solid #0c0c0f; 
+    padding-bottom: 5px; /* Memberikan jarak antara teks dan garis bawah */
+    margin-bottom: 10px; /* Memberikan jarak antara elemen <h2> dengan elemen berikutnya */
+}
+.left-paragraph {
+    text-align: left;
+    max-width: auto; /* Sesuaikan lebar maksimum dengan kebutuhan Anda */
+    margin-left: auto; /* Memastikan paragraf berada di sebelah kiri */
+    margin-right: auto;
+}
+
+</style>
+
+
+</head>
+<body>
+  <div class="title-container">
+    <!-- Judul Artikel dengan Gambar -->
+    <h1>
+        <!-- Gambar di sebelah judul artikel -->
+        <img src="mines_103901.png" alt="Deskripsi Gambar" width="50" height="50">
+    </h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <!-- Container untuk judul artikel dan ikon-ikon sosial media -->
+                <div class="title-container">
+                    <!-- Judul Artikel -->
+                    <h1>APsirr Blog</h1>
+                    <!-- Social Icons -->
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                   <!-- Navbar -->
+<nav class="navbar navbar-expand navbar-light bg-light mb-4">
+    <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+        <!-- Konten Artikel -->
+<div class="p-4 bg-white">
+    <p>
+        <img src="th.jpeg" alt="Deskripsi foto" class="article-image">
+    </p>
+   
+    <p class="mt-4">19 April 2024</p>
+    <h2>CYBER SECURITY</h2>
+    <p  class="left-paragraph">
+        Cyber security berasal dari dua kata dalam bahasa Inggris yakni cyber yang artinya dunia maya (internet) dan security yang artinya keamanan. 
+        Secara istilah, cyber security merupakan bentuk perlindungan terhadap sistem yang terhubung ke internet. Ini termasuk perangkat keras, perangkat lunak hingga data yang kamu miliki.
+    </p>
+    <p class="left-paragraph">
+        Strategi keamanan siber yang mumpuni bisa memberikan perlindungan keamanan yang baik terhadap serangan yang dirancang untuk mengakses, mengubah, menghapus atau memeras sistem dan data sensitif dari pengguna. 
+        Keamanan cyber juga berperan dalam mencegah serangan yang bertujuan untuk mengganggu atau bahkan menghentikan operasi sistem maupun perangkat.
+    </p>
+    <p class="left-paragraph">
+        Praktik cyber security dilakukan tidak hanya oleh individu, tapi juga oleh perusahaan dan instansi. 
+        Langkah ini akan membantu melindungi pusat data dan sistem komputerisasi lainnya dari akses yang tidak sah.
+    </p>
+    <p>
+        <img src="Digitalhealth.org_.jpeg" alt="Deskripsi foto" class="article-images">
+    </p>
+    <p class="left-paragraph">
+        Jenis-jenis Cyber Security : </p>
+    <p class="left-paragraph">
+1. Keamanan jaringan.
+Ini merupakan praktik pengamanan jaringan dari penyusup, 
+baik penyerang yang memang sengaja menargetkan sistem tersebut maupun pihak yang mencari peluang.</p>
+<p class="left-paragraph">
+2. Keamanan aplikasi.
+Keamanan aplikasi berfokus untuk menjaga perangkat lunak atau software agar bebas dari ancaman.
+Kerentanan pada software dan aplikasi harus diatasi sejak tahap desain dan pengembangan, jauh sebelum program tersebut digunakan. 
+Hal ini penting untuk mencegah kerugian yang lebih besar di kemudian hari.Keamanan informasi dibutuhkan untuk melindungi integritas dan privasi data, 
+baik dalam proses penyimpanan maupun saat transit. </p>
+<p class="left-paragraph">
+3. Keamanan operasional.
+Keamanan operasional mencakup proses dan keputusan untuk menangani dan melindungi aset data. 
+Izin yang dimiliki oleh pengguna saat mengakses jaringan dan prosedur yang menentukan bagaimana dan di mana data dapat disimpan atau dibagikan, 
+semua berada dalam ruang lingkup keamanan operasional.</p>
+<p class="left-paragraph">
+4. Mitigasi.
+Proses mitigasi penting untuk kelangsungan bisnis. Ini menentukan bagaimana langkah sebuah perusahaan atau organisasi dalam merespons insiden 
+dunia maya atau peristiwa lain yang menyebabkan hilangnya data atau terganggunya kegiatan operasional. Kebijakan pemulihan menentukan bagaimana
+perusahaan memulihkan kegiatan operasional dan semua informasinya seperti semula, sebelum serangan terjadi.</p>
+<p class="left-paragraph">
+5. Edukasi terhadap end-user.
+Keamanan data juga bisa terganggu karena faktor yang paling tidak terduga: manusia alias pengguna. 
+Siapa pun dapat dengan tidak sengaja memasukkan virus ke dalam sistem karena gagal mengikuti praktik keamanan yang baik.
+ Oleh karena itu, pengguna juga harus diberikan edukasi terkait cara menghapus atau mengabaikan lampiran email yang mencurigakan, 
+ tidak menyambungkan USB drive yang tidak dikenal, mengganti password secara berkala dan edukasi penting lainnya yang akan mendukung keamanan di organisasi/perusahaan.</p>
+<p class="left-paragraph">
+    <!-- Tombol Share -->
+    <div class="mt-4">
+        <h5>Bagikan artikel :</h5>
+        <a href="https://www.youtube.com/NAMA_PROFIL/" target="_blank" rel="noopener noreferrer">
+            <img src="th (2).jpeg" alt="Instagram Share" width="30" height="30">
+        </a>        
+        <a href="https://twitter.com/intent/tweet?url=URL_ARTIKEL&text=JUDUL_ARTIKEL" target="_blank" rel="noopener noreferrer">
+            <img src="th (4).jpeg" alt="Twitter Share" width="30" height="30">
+        </a>
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=URL_ARTIKEL&title=JUDUL_ARTIKEL" target="_blank" rel="noopener noreferrer">
+            <img src="th (3).jpeg" alt="LinkedIn Share" width="30" height="30">
+        </a>
+        <a href="https://www.instagram.com/NAMA_PROFIL/" target="_blank" rel="noopener noreferrer">
+            <img src="th (1).jpeg" alt="Facebook Share" width="30" height="30">
+        </a>
+    </div>
+</div>
+<div class="p-4 bg-white">
+  <!-- Artikel Navigation -->
+<div class="row">
+    <!-- Card Artikel Sebelumnya -->
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Artikel Sebelumnya</h5>
+                <a href="#" class="btn btn-primary"><i class="fas fa-arrow-left"></i></a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Card Artikel Selanjutnya -->
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Artikel Selanjutnya</h5>
+                <a href="#" class="btn btn-primary"><i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+   <!-- Rekomendasi Artikel Lainnya -->
+<h3 class="mt-4">Rekomendasi Artikel Lainnya</h3>
+<div class="row">
+  <div class="col-md-4">
+    <div class="card">
+      <img src="th (5).jpeg" class="card-img-top" alt="Artikel 1">
+      <div class="card-body">
+        <h5 class="card-title">Pentingnya Pembelajaran Berbasis IT pada Anak Usia Dini</h5>
+        <a href="#" class="btn btn-primary">Baca Artikel</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="card">
+      <img src="th (6).jpeg" class="card-img-top" alt="Artikel 2">
+      <div class="card-body">
+        <h5 class="card-title">Global Warming and Global Boiling</h5>
+        <a href="#" class="btn btn-primary">Baca Artikel</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="card">
+      <img src="img-4192-6552f1e0110fce2ff2781182.jpeg" class="card-img-top" alt="Artikel 3">
+      <div class="card-body">
+        <h5 class="card-title">Mending Mana, Python atau Javascript?</h5>
+        <a href="#" class="btn btn-primary">Baca Artikel</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Testimonials -->
+<h3 class="mt-4">TESTIMONIALS</h3>
+<div class="row">
+  <div class="col-md-4 text-center">
+    <div class="card">
+      <div class="card-body">
+        <img src="th (7).jpeg" alt="Gambar Card Baru" width="50" height="50" class="rounded-circle">
+        <h5 class="card-title">Zehra Gunes</h5>
+        <div id="carouselTestimonials" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <p class="testimonial-text">"Artikel ini sangat membantu saya dalam memahami konsep yang kompleks dengan penjelasan yang sederhana dan mudah dipahami. Sangat merekomendasikan untuk dibaca!"</p>
+            </div>
+          </div> <!-- tutup carousel-inner -->
+        </div> <!-- tutup carousel -->
+      </div>
+    </div>
+  </div> <!-- tutup col-md-4 -->
+  
+  <div class="col-md-4 text-center">
+    <div class="card">
+      <div class="card-body">
+        <img src="th (8).jpeg" alt="Gambar Card Baru" width="50" height="50" class="rounded-circle">
+        <h5 class="card-title">Nancy Momoland</h5>
+        <p class="card-text">Saya sangat terinspirasi oleh artikel ini! Isinya sangat informatif dan mengarahkan saya ke arah yang benar dalam pencarian saya akan pengetahuan baru. Terima kasih! </p>
+      </div>
+    </div>
+  </div> <!-- tutup col-md-4 -->
+
+  <div class="col-md-4 text-center">
+    <div class="card">
+      <div class="card-body">
+        <img src="th (9).jpeg" alt="Gambar Card Baru" width="50" height="50" class="rounded-circle">
+        <h5 class="card-title">Carca Camacho</h5>
+        <p class="card-text">Saya sangat menikmati membaca artikel ini! Gaya penulisannya mengalir dengan baik dan kontennya sangat relevan dengan apa yang saya cari. Saya tidak sabar untuk membaca artikel berikutnya! </p>
+      </div>
+    </div>
+  </div> <!-- tutup col-md-4 -->
+</div> <!-- tutup row -->
+
+  <!-- Kolom Komentar -->
+<div class="container">
+  <div class="row justify-content-center">
+      <div class="col-md-6">
+          <div class="p-4 bg-white">
+              <h3 class="mt-4">Leave a Message</h3>
+              <form class="mt-4">
+                  <div class="form-row">
+                      <div class="form-group col-md-12">
+                          <label for="name"> Name</label>
+                          <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                      </div>
+                  </div>
+                  <div class="form-row">
+                      <div class="form-group col-md-12">
+                          <label for="message"> Message</label>
+                          <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+                      </div>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Send Comment</button>
+              </form>
+          </div>
+      </div>
+  </div>
+</div>
